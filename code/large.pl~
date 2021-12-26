@@ -1,0 +1,26 @@
+print "enter a value:";
+$x = <stdin>;
+print "enter b value:";
+$y = <stdin>;
+print "enter c value:";
+$z = <stdin>;
+
+if ( $x > $y )
+  {
+    if ($x>$z)
+      {
+        print "$x is largest number";
+      }
+    else
+      {
+        print "$z is largest number";
+      }
+   }
+elsif($y > $z)
+  {
+    print "$y is largest number";
+  }
+else
+  {
+    print "$z is largest number";
+  }
